@@ -13,12 +13,6 @@ while(true); do
 	else
 		echo "Process found, sleeping for 20 seconds..."
 		ps -ef | grep "bash -i" | grep -v "grep" | wc -l
-		
-	
 	fi
 	sleep 20
-
-
-
 done
-
